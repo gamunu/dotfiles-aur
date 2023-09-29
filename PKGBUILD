@@ -40,7 +40,9 @@ depends=('git'
          'okular'
          'perl-file-mimeinfo'
          'lxappearance'
-         'mpv')
+         'mpv'
+         'amdvlk'
+         'lib32-amdvlk')
 
 pkgver() {
   cd "$srcdir/$_reponame"
